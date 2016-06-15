@@ -8,4 +8,9 @@ class Player
     @side = " "
     @@all_players << self
   end
+
+  def self.all 
+    @@all_players
+  end 
+
 end
