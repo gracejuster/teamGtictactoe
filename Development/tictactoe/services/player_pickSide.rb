@@ -1,0 +1,2 @@
+class Player_pickSide
+end
