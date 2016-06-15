@@ -6,15 +6,20 @@ class Runner
 
   def run
     puts "im running!"
-    all_players = {}
     pl = Player_login.new
-    #binding.pry
     login = pl.run
+    ## <Player_login:0x007fa0422582f0 @player=#<Player:0x007fa0422581d8 @name="grce", @side=" ", @stats=[]>>
   end
+
 end
 
 game = Runner.new
 game.run 
+
+
+
+###NOTES 
+
   # new player 
   # new stats 
   # player logs in 
